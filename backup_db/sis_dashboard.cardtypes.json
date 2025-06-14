@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6833f8e61ba40e5485e6531b"
+  },
+  "cardTypeId": "CT01",
+  "cardTypeName": "Platinum Debit",
+  "serviceProvider": "Visa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fbe61ba40e5485e65347"
+  },
+  "cardTypeId": "CT02",
+  "cardTypeName": "Gold Credit",
+  "serviceProvider": "MasterCard",
+  "__v": 0
+}]

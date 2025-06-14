@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Dashboard from './pages/Dashboard';
+import Accounts from './pages/Accounts';
+import Devices from './pages/Devices';
+import Transactions from './pages/Transactions';
+import BranchMaster from './pages/BranchMaster'; 
+import CardType from './pages/CardTypes';
+import AccountCards from './pages/AccountCards';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="d-flex">
+        <Navbar />
+        <div className="flex-grow-1 p-4">
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/accounts" element={<Accounts />} />
+            <Route path="/devices" element={<Devices />} />
+            <Route path="/transactions" element={<Transactions />} />
+            <Route path="/branches" element={<BranchMaster />} /> 
+            <Route path="/cardtypes" element={<CardType />} />
+            <Route path="/accountcards" element={<AccountCards />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 

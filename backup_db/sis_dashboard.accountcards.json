@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6833f96f1ba40e5485e65323"
+  },
+  "accountId": "A1001",
+  "cardTypeId": "CT01",
+  "maskedCardNumber": "XXXX-XXXX-XXXX-1234",
+  "issuedDate": "2025-05-26",
+  "expiryDate": "2030-05-26",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fbb71ba40e5485e65344"
+  },
+  "accountId": "A1002",
+  "cardTypeId": "CT02",
+  "maskedCardNumber": "XXXX-XXXX-XXXX-5678",
+  "issuedDate": "2025-05-26",
+  "expiryDate": "2030-05-26",
+  "__v": 0
+}]

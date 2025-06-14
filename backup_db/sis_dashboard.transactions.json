@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "683175d7d6f11d23095abefa"
+  },
+  "refNumber": "TXN002",
+  "accountId": "A1002",
+  "type": "Reprint",
+  "cardTypeId": "CT02",
+  "refCardId": "CT01-PRV",
+  "generationDeviceId": "D102",
+  "generationTime": "2025-05-24 13:45",
+  "printDeviceId": "D101",
+  "printStatus": "Failed",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fa631ba40e5485e6532c"
+  },
+  "refNumber": "TXN001",
+  "accountId": "A1001",
+  "type": "New",
+  "cardTypeId": "CT01",
+  "refCardId": "",
+  "generationDeviceId": "D101",
+  "generationTime": "2025-05-24 11:45",
+  "printDeviceId": "D101",
+  "printStatus": "Printed",
+  "__v": 0
+}]

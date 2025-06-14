@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "68317210a5fd167ca0e8dd87"
+  },
+  "accountId": "A1001",
+  "accountType": "Savings",
+  "accountNo": "9876543210",
+  "customerName": "Priya Sharma",
+  "mobileNumber": "9876543210",
+  "emailAddress": "priya.sharma@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fb601ba40e5485e6533f"
+  },
+  "accountId": "A1002",
+  "accountType": "Current",
+  "accountNo": "1234567890",
+  "customerName": "Rohan Mehta",
+  "mobileNumber": "9123456789",
+  "emailAddress": "rohan.mehta@example.com",
+  "__v": 0
+}]

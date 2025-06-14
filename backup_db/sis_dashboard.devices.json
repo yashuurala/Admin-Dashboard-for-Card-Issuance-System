@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "68317623d6f11d23095abeff"
+  },
+  "deviceId": "D101",
+  "branchCode": "B001",
+  "location": "Udupi",
+  "type": "Kiosk",
+  "uniqueId": "UID-ABC123",
+  "hopperCount": 2,
+  "status": "Active",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6833fab51ba40e5485e6532f"
+  },
+  "deviceId": "D102",
+  "branchCode": "B001",
+  "location": "Manglore",
+  "type": "Kiosk",
+  "uniqueId": "UID-ABC456",
+  "hopperCount": 2,
+  "status": "Active",
+  "__v": 0
+}]
