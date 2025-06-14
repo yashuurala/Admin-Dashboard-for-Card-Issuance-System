@@ -1,6 +1,6 @@
 # 🧾 Admin Dashboard for Card Issuance System
 
-A full-stack web-based admin panel developed using **React**, **Node.js**, and **MongoDB**.  
+A responsive web-based admin panel built using **React**, **Node.js**, and **MongoDB** to manage and monitor card issuance across multiple branches. It includes modules for managing branches, accounts, card types, and devices, with real-time transaction logs, dashboard analytics, dynamic filters, and secure backend integration.
 💼 Built during my summer internship at **Manipal Technologies Limited**, this dashboard helps administrators manage card issuance operations across branches.
 
 ---
